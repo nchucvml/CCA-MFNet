@@ -13,17 +13,25 @@ In this project, we demonstrate the performance of the CCA-MFNet for gastric int
 ## Instructions for Code:
 ### Requirements
 
-To install PyTorch>=1.4.0 or 1.8.2 LTS (recommended), please refer to https://github.com/pytorch/pytorch#installation.   
-It is necessary that VRAM is greater than 11GB (_e.g._ RTX2080Ti)  
+To install PyTorch >= 1.4.0 or 1.8.2 LTS (highly recommended), please refer to https://pytorch.org/get-started/locally/
+
+Pytorch LTS version 1.8.2 is only supported for Python <= 3.8
+
+It is necessary that VRAM is greater than 11GB (_e.g._ RTX2080Ti)
+
+Linux Ubuntu 20.04 LTS (highly recommended)
+
 Python 3.7 
-gcc (GCC) 4.8.5  
-CUDA 9.0  
+
+gcc (GCC) >= 4.8.5
+
+CUDA >= 10.2
 
 ### Compiling
 
 ```bash
 # Install **Pytorch**
-$ conda install pytorch torchvision -c pytorch
+$ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
 
 # Install **Apex**
 $ git clone https://github.com/NVIDIA/apex
