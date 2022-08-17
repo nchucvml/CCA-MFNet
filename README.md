@@ -35,3 +35,27 @@ $ git clone https://github.com/mapillary/inplace_abn.git
 $ cd inplace_abn
 $ python setup.py install
 ```
+
+### Training and Inference
+Training script.
+```bash
+./run_train.sh
+``` 
+
+Inference script.
+```bash
+./run_inference.sh
+``` 
+
+### Model in Gastric Intestinal Metaplasia Dataset (MICCAI 2022 workshop paper)
+
+| **Method** | **Backbone** | **mIOU** | **mDice** | **Recall** | **Precision** | **Accuracy** | **Link** |
+|:-------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|Proposed| ResNet-50 | 68.92 | 78.47 | 74.94 | 83.45 | 96.13 | [Google Drive](https://drive.google.com/file/d/1PTkBTD-kttEK7HRqbeHHYjV7FZGp7rmb/view?usp=sharing) |
+
+
+## Acknowledgments 
+This work was supported in part by the National Science and Technology Council, Taiwan under Grant MOST 110-2634-F-006-022, 111-2327-B-006-007, and 111-2628-E-005-007-MY3. We would like to thank National Center for High-performance Computing (NCHC) for providing computational and storage resources.
+
+## Particular Thanks
+Department of Internal Medicine and Institute of Clinical Medicine, National Cheng Kung University Hospital, College of Medicine
