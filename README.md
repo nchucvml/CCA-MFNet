@@ -8,7 +8,7 @@ The paper is accepted by MICCAI 2022 workshop.
 
 In this project, we demonstrate the performance of the CCA-MFNet for gastric intestinal metaplasia segmentation.
 
-```    
+  
 
 ## Instructions for Code:
 ### Requirements
