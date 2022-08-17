@@ -55,10 +55,16 @@ Inference script.
 ./run_inference.sh
 ``` 
 
-### Model in Gastric Intestinal Metaplasia Dataset (MICCAI 2022 workshop paper)
+### Comparisons with State-of-the-art Methods (%)
 
-| **Method** | **Backbone** | **mIOU** | **mDice** | **Recall** | **Precision** | **Accuracy** | **Link** |
+| **Method** | **Backbone** | **mIOU** | **mDice** | **Recall** | **Precision** | **Accuracy** | ** Model Link** |
 |:-------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|U-Net| U-Net | 57.61 | 65.60 | 61.40 | 77.18 | 94.94 | |
+|U-Net++| U-Net | 58.62 | 66.92 | 62.55 | 78.10 | 95.05 | |
+|nnU-Net| U-Net | 60.33 | 69.05 | 64.29 | 80.47 | 95.30 | |
+|MedT| Transformer | 53.31 | 59.44 | 56.62 | 71.03 | 94.46 | |
+|W-Deeplab| Deeplab-v3 | 62.19 | 71.22 | 65.66 | 85.17 | 95.69 | |
+|CCNet| ResNet-50 | 65.88 | 75.39 | 70.80 | 83.24 | 95.87 | |
 |Proposed| ResNet-50 | 68.92 | 78.47 | 74.94 | 83.45 | 96.13 | [Google Drive](https://drive.google.com/file/d/1PTkBTD-kttEK7HRqbeHHYjV7FZGp7rmb/view?usp=sharing) |
 
 ## Reference 
