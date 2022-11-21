@@ -80,4 +80,4 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 This work was supported in part by the National Science and Technology Council, Taiwan under Grant MOST 110-2634-F-006-022, 111-2327-B-006-007, and 111-2628-E-005-007-MY3. We would like to thank National Center for High-performance Computing (NCHC) for providing computational and storage resources.
 
 ## Particular Thanks
-Department of Internal Medicine and Institute of Clinical Medicine, National Cheng Kung University Hospital, College of Medicine
+Department of Internal Medicine and Institute of Clinical Medicine, National Cheng Kung University Hospital, College of Medicine, National Cheng Kung University, Tainan, Taiwan.
