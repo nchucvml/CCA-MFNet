@@ -71,10 +71,7 @@ Inference script.
 
 Please cite the following paper when you apply the code. 
 
-Chu-Min Nien, Er-Hsiang Yang, Wei-Lun Chang, Hsiu-Chi Cheng, and
-Chun-Rong Huang, "Criss-Cross Attention based Multi-Level Fusion
-Network for Gastric Intestinal Metaplasia Segmentation," accepted by 
-International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshop, 2022.
+C.-M. Nien, E.-H. Yang, W.-L. Chang, H.-C. Cheng, and C.-R. Huang, "Criss-cross attention based multi-level fusion network for gastric intestinal metaplasia segmentation," in Proc. Int. Conf. Med. Image Comput. Comput. Assist. Intervent. Workshop Imag. Syst. GI Endoscopy, 2022, pp. 13–23. 
 
 ## Acknowledgments 
 This work was supported in part by the National Science and Technology Council, Taiwan under Grant MOST 110-2634-F-006-022, 111-2327-B-006-007, and 111-2628-E-005-007-MY3. We would like to thank National Center for High-performance Computing (NCHC) for providing computational and storage resources.
